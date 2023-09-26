@@ -1,0 +1,66 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+body {
+
+}
+.Encabezado {
+    background-color: black;
+    flex: 0 0 100%;
+    text-align: center;
+    height: auto;
+    font-size: x-large;
+    color: ghostwhite;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-palette: dark;
+}
+.navegacion {
+    background-color: gray;
+    flex: 0 0 100%;
+    color: black;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.barra {
+    background-color: darkgray;
+    flex: 0 0 20%;
+    color: black;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.main-content {
+    background-color: lightgrey;
+    flex: 0 0 80%;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.article {
+    /*border style*/
+   border-style: solid;
+
+}
+p {
+    text-align: left;
+    font-size: large;
+}
+.avatar img {
+    position: relative;
+    height: 200px;
+    top: -5px;
+    left: 755px;
+}
+h6 {
+    font-size: large;
+}
+    .pie {
+    background-color: lightslategray;
+    flex: 0 0 100%;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
